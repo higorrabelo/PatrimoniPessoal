@@ -14,13 +14,18 @@ class Route extends Bootstrap{
         ];
         $routes['login']=[
             "route"=>"/login",
-            "controller"=>"IndexController",
+            "controller"=>"AuthController",
             "action"=>"login"
         ];
-        $routes['login']=[
+        $routes['contato']=[
             "route"=>"/contato",
             "controller"=>"IndexController",
             "action"=>"contato"
+        ];
+        $routes['sair']=[
+            "route"=>"/sair",
+            "controller"=>"AuthController",
+            "action"=>"sair"
         ];
 
         $this->setRoutes($routes);
