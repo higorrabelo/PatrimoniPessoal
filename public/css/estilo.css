@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: linear-gradient(black, white);
+    height: 100em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#formulario{
+    background-color: white;
+    height: 360px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px black;
+    padding:30px;
+}
+
+.caixa{
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+.link-personalizado{
+    display: block;
+    text-align: center;
+}
+#personalizado a{
+    text-decoration: none;
+    color:white;
+    margin: 30px;
+}

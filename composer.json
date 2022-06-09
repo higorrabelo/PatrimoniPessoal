@@ -1,0 +1,17 @@
+{
+    "require": {
+        "php":">=7.0"
+    },
+    "authors": [
+        {
+            "name": "Higor Rabelo",
+            "email": "higor.rabelo@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "App\\":"App/",
+            "Framework\\":"vendor/Framework/"
+        }
+    }
+}
